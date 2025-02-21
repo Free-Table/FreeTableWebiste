@@ -10,6 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dc572dcd0c.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../images/freetable.png">
+    <script>
+  // Check if the URL lacks a protocol
+  if (window.location.hostname === 'freetable.mk' && window.location.protocol !== 'https:') {
+    // Force redirect to HTTPS
+    window.location.href = 'https://freetable.mk/download/index.html';
+  }
+</script>
 </head>
 <body>
     <nav class="navbar">
