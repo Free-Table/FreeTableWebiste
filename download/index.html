@@ -57,6 +57,12 @@
             menu.classList.toggle('active');
             hamburger.classList.toggle('active');
         });
+        document.addEventListener("DOMContentLoaded", function () {
+    // Check if the current URL doesn't have HTTPS and if it's not already the correct URL
+    if (window.location.protocol !== "https:" && window.location.href !== "https://freetable.mk/download/index.html") {
+      window.location.href = "https://freetable.mk/download/index.html";
+    }
+  });
       
 </script>
 </body>
